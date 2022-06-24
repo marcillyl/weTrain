@@ -28,7 +28,7 @@
 .contact {
   display: flex;
   flex-direction: column;
-  padding: 10pt 40pt 100pt 40pt;
+  padding: 10pt 40pt 70pt 40pt;
 }
 .contact__headline {
   font-size: 7em;
@@ -54,5 +54,9 @@
 .form__button {
   padding: 4pt 7pt;
   margin: 10pt;
+}
+input::placeholder, textarea::placeholder {
+  opacity: 1;
+  color: white;
 }
 </style>
